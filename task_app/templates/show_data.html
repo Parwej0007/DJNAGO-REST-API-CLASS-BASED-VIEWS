@@ -1,0 +1,20 @@
+<center>
+<h1>Show all data Category & Product</h1>
+    <table>
+        <thead>
+        <tr>
+            <th>Title Type</th>
+            <th>Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for c in category %}
+        <tr>
+            <br>
+            <td><a href="{% url 'show-category-product' c.pk %}">{{ c.title }}</a> </td>
+            <td>{{ c.description }}</td>
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</center>

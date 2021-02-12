@@ -1,0 +1,23 @@
+<center>
+<h2>Show product of given Categories</h2>
+
+    <table>
+        <thead>
+        <tr>
+            <th>Product_Name</th>
+            <th>Product_Price</th>
+            <th>Manufacture_Date</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for p in product.values %}
+        <tr>
+            <br>
+            <td>{{ p }}</td>
+            <td>{{ p }}</td>
+            <td>{{ p }}</td>
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</center>
