@@ -1,4 +1,4 @@
-# --------------------------------- C-R-U-D ----------------------------------------
+# ----------------------------- C-R-U-D -----------------------------
 ## Created models for database and storing data, perfrom CRUD OPERATIONS on DATA By using DJANGO-REST-API.
 
 
